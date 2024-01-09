@@ -486,7 +486,10 @@ footer a:hover{
        width: 100%;
        text-align: center;
    }
-
+footer .col install .row img {
+ height: 5px;
+ width: 5px;
+}
 
 
 
