@@ -999,15 +999,15 @@ color: aqua;
 #mobile a.active::after,
 #mobile a:hover::after {
     content: "";
-     width: 10%;
+     width: 30%;
     height: 2px;
     background: aqua;
     position: absolute;
     bottom: -4px;
-    left: 0px;
+    left: 20px;
  }
 h2{
-    font-size: 32px;
+    font-siz e: 32px;
 }
 h1{
     font-size: 38px;
