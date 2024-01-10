@@ -927,7 +927,7 @@ right: 0px;
 #hero{
     height: 100%;
  width:100%;
-    padding: 0 80px;
+    padding: 0 0px;
     background-position: top 30% right 30%;
 }
 #feature{
