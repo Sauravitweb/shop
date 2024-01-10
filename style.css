@@ -982,6 +982,36 @@ right: 0px;
 #header{
     padding: 10px 30px;
 }
+
+ #mobile li{
+list-style: none;
+padding: 0 20px;
+position: relative;
+}
+#mobile li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: black;
+    transition: 0.3s ease;
+}
+
+#mobile li a:hover,
+#mobile li a.active {
+color: aqua;
+}
+
+#mobile li a.active::after,
+#mobile li a:hover::after
+ {
+    content: "";
+    width: 30%;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+ }
 #mobile a {
 text-decoration: none;
  color: black;
