@@ -996,7 +996,7 @@ color: aqua;
 #mobile a.active::after,
 #mobile a:hover::after {
     content: "";
-     width: 30%;
+     width: 10%;
     height: 2px;
     background: aqua;
     position: absolute;
