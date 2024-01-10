@@ -994,9 +994,10 @@ color: aqua;
 }
 
 #mobile a.active::after,
-#mobile a:hover::after
- {
+#mobile a:hover::after {
     content: "";
+     width: 30%;
+    height: 2px;
     background: aqua;
     position: absolute;
     bottom: -4px;
