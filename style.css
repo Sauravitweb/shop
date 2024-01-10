@@ -982,13 +982,12 @@ right: 0px;
 #header{
     padding: 10px 30px;
 }
-  #mobile{
-position: relative;
- }
+  
 #mobile a {
     text-decoration: none;
     color: black;
     transition: 0.3s ease;
+ position: relative;
 }
 
 #mobile  a:hover,
