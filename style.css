@@ -982,7 +982,30 @@ right: 0px;
 #header{
     padding: 10px 30px;
 }
+ #mobile{
+position: relative;
+ }
+#mobile a {
+    text-decoration: none;
+    color: black;
+    transition: 0.3s ease;
+}
 
+#mobile  a:hover,
+#mobile  a.active {
+color: aqua;
+}
+
+#mobile a.active::after,
+#mobile a:hover::after {
+    content: "";
+    width: 26%;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+}
 h2{
     font-siz e: 32px;
 }
