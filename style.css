@@ -103,6 +103,9 @@ position: relative;
     color:black;
     transition: 0.3s ease;
 }
+#navbar li a i{
+text-decoration: none;
+}
 #navbar li a:hover,
 #navbar li a.active {
 color: aqua;
