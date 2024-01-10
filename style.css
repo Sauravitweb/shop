@@ -982,7 +982,7 @@ right: 0px;
 #header{
     padding: 10px 30px;
 }
- #mobile{
+  #mobile{
 position: relative;
  }
 #mobile a {
@@ -991,8 +991,20 @@ position: relative;
     transition: 0.3s ease;
 }
 
-#mobile  a:hover{
+#mobile  a:hover,
+#mobile  a.active {
 color: aqua;
+}
+
+#mobile a.active::after,
+#mobile a:hover::after {
+    content: "";
+    width: 26%;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
 }
 
  
