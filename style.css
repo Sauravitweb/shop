@@ -906,6 +906,7 @@ right: 0px;
 #mobile{
     display: flex;
     align-items: center;
+ color: black;
 }
 
 #mobile i{
@@ -925,9 +926,8 @@ right: 0px;
     display: none;
 }
 #hero{
-    height: 100%;
- width:100%;
-    padding: 0 0px;
+    height: 70vh;
+    padding: 0 80px;
     background-position: top 30% right 30%;
 }
 #feature{
