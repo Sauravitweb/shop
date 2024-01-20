@@ -96,6 +96,20 @@ width: 100%;
     align-items: center;
     justify-content: center;
 }
+#header a:hover {
+color: aqua;
+}
+
+#header a:hover::after
+ {
+    content: "";
+    width: 26%;
+    height: 2px;
+    background: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+ }
 #navbar{
     display: flex;
     align-items: center;
