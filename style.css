@@ -1029,6 +1029,7 @@ background-image: none;
 background-image: url("/imagess/n40.jpg");
     height: 100vw;
     width: 100%;
+ padding: 0 15px;
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
