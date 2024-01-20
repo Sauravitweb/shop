@@ -1016,9 +1016,10 @@ h1{
 }
 #hero {
     padding: 0 20px;
-    background-size: 300px;
-    background-position:  top 55% left 50% right 0% bottom 0%;
+ background-position: top 55% right 0 left 100%;
+    background-position:  top 55%;
 }
+ 
 
 #feature{
     justify-content: space-between;
