@@ -1015,11 +1015,10 @@ h1{
     font-size: 38px;
 }
 #hero {
- margin: 0;
-    padding: 0 20px;
+
+ padding: 0 20px;
  background-position: right center;
- background-size: cover;
-  
+ 
 }
  
 
