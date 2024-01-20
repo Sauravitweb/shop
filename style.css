@@ -1027,14 +1027,10 @@ background-image: none;
 }
 #heropic {
 height: 100vh;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+   
 }
 #feature{
     justify-content: space-between;
