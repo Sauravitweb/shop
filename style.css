@@ -1026,10 +1026,10 @@ h1{
 background-image: none;
 }
 #heropic {
-
+height: 100vh;
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: top 25% right 0;
+    background-position: center;
     padding: 0 80px;
     display: flex;
     flex-direction: column;
