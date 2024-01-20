@@ -1026,8 +1026,7 @@ h1{
 background-image: none;
 }
 #heropic {
-height: 100vh;
-    width: 100%;
+
     background-size: contain;
     background-repeat: no-repeat;
     background-position: top 25% right 0;
