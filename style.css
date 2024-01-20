@@ -1027,7 +1027,7 @@ background-image: none;
 }
 #heropic {
 background-image: url("/imagess/n40.jpg");
-    height: 100vh;
+    height: 100vw;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
