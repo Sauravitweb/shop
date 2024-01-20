@@ -1026,11 +1026,8 @@ h1{
 background-image: none;
 }
 #heropic {
-height: 100vh;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-   
+height: 100vw;
+width: 100%;
 }
 #feature{
     justify-content: space-between;
