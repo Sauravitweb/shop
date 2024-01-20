@@ -1016,8 +1016,8 @@ h1{
 }
 #hero {
     padding: 0 20px;
-    background-size: 500px;
-    background-position:  top 55%;
+    background-size: 300px;
+    background-position:  top 55% left 50% right 0% bottom 0%;
 }
 
 #feature{
