@@ -349,7 +349,7 @@ background-position: center;
 padding: 30px;
 }
 #sm-banner .banner-box{  
-    background-image: url(/imagess/n14.jpg);
+    background-image: url(/imagess/n9.jpg);
 }
 
 #sm-banner h4{
@@ -404,10 +404,10 @@ font-weight: 800;
     font-size: 15px;
 }
 #banner3 .banner-box2 {
-    background-image: url(/imagess/n6.jpg);
+    background-image: url(/imagess/n20.jpg);
 }
 #banner3 .banner-box3 {
-    background-image: url(/imagess/n5.jpg);
+    background-image: url(/imagess/n10.jpg);
 }
 #newsletter {
     display: flex;
